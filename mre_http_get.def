@@ -1,0 +1,7 @@
+; mre_http_get.def : Declares the module parameters for the DLL.
+
+LIBRARY      "mre_http_get"
+DESCRIPTION  'mre_http_get Windows Dynamic Link Library'
+
+EXPORTS
+    vm_entry @1
